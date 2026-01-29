@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogão do Léo - O Gigante do Ibura</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logoboneco.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <img src="images/logo.png" alt="Dogão do Léo">
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#cardapio">Destaques</a></li>
+                <li><a href="#depoimentos">Clientes</a></li>
+                <li><a href="#entregas">Onde Entregamos</a></li>
+                <li><a href="#localizacao">Onde Estamos</a></li>
+            </ul>
+            <div class="nav-right">
+                <a href="https://nexpedidos.com/dogaodoleo" target="_blank" class="cta-btn-nav">
+                    <span class="material-icons">shopping_bag</span> Pedir Agora
+                </a>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="material-icons">menu</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content hidden">
+                <span class="badge">O Gigante do Ibura 🔥</span>
+                <h1>Fome de <br> <span class="text-orange">Verdade?</span></h1>
+                <p>Hambúrgueres artesanais e hot-dogs com aquele sabor que você respeita. Do tamanho da sua fome!</p>
+                <div class="hero-btns">
+                    <a href="#cardapio" class="btn primary">Ver os Favoritos</a>
+                    <a href="https://nexpedidos.com/dogaodoleo" target="_blank" class="btn outline">Cardápio Completo</a>
+                </div>
+            </div>
+            <div class="hero-image hidden delay-200">
+                <img src="images/flyburguer.png" alt="Dogão do Léo Principal">
+            </div>
+        </div>
+        <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f9f9f9" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+        </svg>
+    </header>
+
+    <section class="features-section">
+        <div class="container grid-container">
+            <div class="feature-card hidden">
+                <span class="material-icons">workspace_premium</span>
+                <h3>Artesanal Real</h3>
+                <p>Blends de carne bovina preparados diariamente.</p>
+            </div>
+            <div class="feature-card hidden delay-100">
+                <span class="material-icons">bolt</span>
+                <h3>Entrega Foguete</h3>
+                <p>No Ibura e região, seu lanche chega voando e quentinho.</p>
+            </div>
+            <div class="feature-card hidden delay-200">
+                <span class="material-icons">layers</span>
+                <h3>O Gigante</h3>
+                <p>Lanches generosos que matam qualquer fome.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="cardapio" class="menu-section">
+        <div class="container">
+            <h2 class="section-title hidden">Nossos <span class="text-orange">Favoritos</span></h2>
+            
+            <div class="grid-container">
+                <div class="card hidden delay-100">
+                    <div class="card-img-holder">
+                        <img src="images/x-leo.png" alt="X-Léo">
+                    </div>
+                    <div class="card-info">
+                        <h3>X-Léo Especial</h3>
+                        <p>Pão brioche, blend artesanal, muito cheddar e bacon crocante.</p>
+                        <a href="https://nexpedidos.com/dogaodoleo" target="_blank" class="btn-sm">Eu quero <span class="material-icons">arrow_forward</span></a>
+                    </div>
+                </div>
+
+                <div class="card hidden delay-200">
+                    <div class="card-img-holder">
+                        <img src="images/dogao-120.png" alt="Dogão 120cm">
+                    </div>
+                    <div class="card-info">
+                        <h3>Dogão 120cm</h3>
+                        <p>O gigante da casa! Com tudo que tem direito para quem tem fome.</p>
+                        <a href="https://nexpedidos.com/dogaodoleo" target="_blank" class="btn-sm">Eu quero <span class="material-icons">arrow_forward</span></a>
+                    </div>
+                </div>
+
+                <div class="card hidden delay-300">
+                    <div class="card-img-holder">
+                        <img src="images/batata.png" alt="Batata Suprema">
+                    </div>
+                    <div class="card-info">
+                        <h3>Batata com Cheddar</h3>
+                        <p>Batata crocante e cheddar cremoso. O acompanhamento perfeito.</p>
+                        <a href="https://nexpedidos.com/dogaodoleo" target="_blank" class="btn-sm">Eu quero <span class="material-icons">arrow_forward</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">O que a galera <span class="text-orange">está comentando</span></h2>
+            
+            <div class="grid-container" id="container-depoimentos">
+                <p style="color: #666; width: 100%; text-align: center;">Carregando avaliações...</p>
+            </div>
+
+            <div style="text-align: center; margin-top: 40px; padding: 20px; background: #fefefe; border-radius: 15px;">
+                <p style="font-weight: 600; color: #555;">
+                    Dê sua opinião: o link para avaliação é enviado no seu WhatsApp após a entrega!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id= "entregas" class="delivery-area">
+        <div class="container">
+            <h3>🚀 Onde Entregamos:</h3>
+            <div class="tags">
+                <span class="tag">Ibura</span>
+                <span class="tag">Cohab</span>
+                <span class="tag">Jordão</span>
+                <span class="tag">Zumbi do Pacheco</span>
+                <span class="tag">Três Carneiros</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="localizacao" class="info-section">
+        <div class="container info-container">
+            <div class="info-text hidden">
+                <h2>Onde nos <span class="text-orange">Encontrar</span></h2>
+                <ul class="info-list">
+                    <li>
+                        <div class="icon-box"><span class="material-icons">location_on</span></div>
+                        <div>
+                            <strong>Endereço</strong>
+                            <p>Av. São Paulo, 52 - COHAB Ibura, Recife</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box"><span class="material-icons">schedule</span></div>
+                        <div>
+                            <strong>Horário</strong>
+                            <p>Todos os dias: 17h30 às 01h30</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box"><span class="material-icons">delivery_dining</span></div>
+                        <div>
+                            <strong>Delivery</strong>
+                            <p>Peça pelo site ou WhatsApp</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.7866875341874!2d-34.95888962583029!3d-8.123188191906351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1dddfe6558e5%3A0xbc41cea12b710e98!2sAv.%20S%C3%A3o%20Paulo%2C%2052%20-%20Jardim%20S%C3%A3o%20Paulo%2C%20Recife%20-%20PE%2C%2051330-390!5e0!3m2!1sen!2sbr!4v1769696743196!5m2!1sen!2sbr2" target="_blank" class="btn primary full-width-mobile">Abrir no Google Maps</a>
+
+                <div class="info-action-btns">
+                    <a href="https://api.whatsapp.com/send?phone=5581988220265&text=Olá! Gostaria de fazer um pedido." target="_blank" class="static-btn zap">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ur2_dogao/" target="_blank" class="static-btn insta">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="map-box hidden delay-200">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.7866875341874!2d-34.95888962583029!3d-8.123188191906351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1dddfe6558e5%3A0xbc41cea12b710e98!2sAv.%20S%C3%A3o%20Paulo%2C%2052%20-%20Jardim%20S%C3%A3o%20Paulo%2C%20Recife%20-%20PE%2C%2051330-390!5e0!3m2!1sen!2sbr!4v1769696743196!5m2!1sen!2sbr3" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Dogão do Léo. O gigante do Ibura.</p>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top">
+        <span class="material-icons">arrow_upward</span>
+    </button>
+
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-content">
+            <img src="images/logoboneco.png" alt="Léo" class="loading-character">
+            <p></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
